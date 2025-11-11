@@ -20,6 +20,7 @@ packages:
   cetmodules:
     require:
     - '@3'
+    - '^cmake @3.27:3.36 ~ownlibs build_type=Release'
   critic:
     require:
     - '@=2.13.06'
