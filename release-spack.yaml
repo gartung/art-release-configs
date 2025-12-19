@@ -5,11 +5,11 @@ spack:
   # Compiler toolchain
   - ./included_yaml/gcc-12-toolchain.yaml
   # Packages
-  - ./included_yaml/packages-art.yaml
+  - ./included_yaml/art-packages.yaml
   # Specs
-  - ./included_yaml/specs-art.yaml
+  - ./included_yaml/art-specs.yaml
   specs:
-  - $specs_art
+  - $art_specs
   concretizer:
     unify: true
     reuse:
