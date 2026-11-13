@@ -48,10 +48,10 @@ packages:
     - '@=2.6.4'
   ifdhc:
     require:
-    - '@=2.8.1'
+    - '@2.8.1'
   ifdhc-config:
     require:
-    - '@=2.8.1'
+    - '@2.8.1'
   nucondb:
     require:
     - '@=2.6.4'
